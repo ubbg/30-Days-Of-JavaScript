@@ -204,133 +204,133 @@ Ctl+Shift+I
 
 ##### Console.log
 
-To write our first JavaScript code, we used a built-in function **console.log()**. We passed an argument as input data, and the function displays the output. We passed `'Hello, World'` as input data or argument in the console.log() function.
+Um unseren ersten JavaScript-Code zu schreiben, haben wir eine integrierte Funktion **console.log()** verwendet. Wir haben ein Argument als Eingabedaten übergeben, und die Funktion zeigt die Ausgabe an. Wir haben `'Hello, World'` als Eingabedaten oder Argument in der Funktion console.log() übergeben.
 
 ```js
-console.log('Hello, World!')
+console.log('Hallo, Welt!')
 ```
 
-##### Console.log with Multiple Arguments
+##### Console.log mit mehreren Argumenten
 
-The **`console.log()`** function can take multiple parameters separated by commas. The syntax looks like as follows:**`console.log(param1, param2, param3)`**
+Die Funktion **`console.log()`** kann mehrere durch Kommas getrennte Parameter annehmen. Die Syntax sieht wie folgt aus:**`konsole.log(param1, param2, param3)`**
 
 ![console log multiple arguments](./images/console_log_multipl_arguments.png)
 
 ```js
-console.log('Hello', 'World', '!')
+console.log('Hallo', 'Welt', '!')
 console.log('HAPPY', 'NEW', 'YEAR', 2020)
-console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
+console.log('Willkommen', 'bis', 30, 'Tage', 'Von', 'JavaScript')
 ```
 
-As you can see from the snippet code above, _`console.log()`_ can take multiple arguments.
+Wie Sie aus dem obigen Codeschnipsel ersehen können, kann _`console.log()`_ mehrere Argumente annehmen.
 
-Congratulations! You wrote your first JavaScript code using _`console.log()`_.
+Herzlichen Glückwunsch! Sie haben Ihren ersten JavaScript-Code mit _`console.log()`_ geschrieben.
 
-##### Comments
+##### Kommentare
 
-We can add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this `//` is also a comment.
+Wir können Kommentare zu unserem Code hinzufügen. Kommentare sind sehr wichtig, um den Code besser lesbar zu machen und um Anmerkungen in unserem Code zu hinterlassen. JavaScript führt den Kommentarteil unseres Codes nicht aus. In JavaScript ist jede Textzeile, die mit // beginnt, ein Kommentar, und alles, was wie dieses `//` eingeschlossen ist, ist ebenfalls ein Kommentar.
 
-**Example: Single Line Comment**
+**Beispiel: Einzeiliger Kommentar**
 
-```js
-// This is the first comment  
-// This is the second comment  
-// I am a single line comment
+``js
+// Dies ist der erste Kommentar  
+// Dies ist der zweite Kommentar  
+// Ich bin ein einzeiliger Kommentar
 ```
 
-**Example: Multiline Comment**
+**Beispiel: Mehrzeiliger Kommentar**
 
 ```js
 /*
-This is a multiline comment  
- Multiline comments can take multiple lines  
- JavaScript is the language of the web  
+Dies ist ein mehrzeiliger Kommentar  
+ Mehrzeilige Kommentare können mehrere Zeilen umfassen  
+ JavaScript ist die Sprache des Webs  
  */
 ```
 
 ##### Syntax
 
-Programming languages are similar to human languages. English or many other language uses words, phrases, sentences, compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is the structure of statements in a computer language. Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
+Programmiersprachen sind den menschlichen Sprachen ähnlich. Englisch und viele andere Sprachen verwenden Wörter, Phrasen, Sätze, zusammengesetzte Sätze und andere mehr, um eine sinnvolle Nachricht zu vermitteln. Die englische Bedeutung von Syntax ist _die Anordnung von Wörtern und Phrasen, um wohlgeformte Sätze in einer Sprache zu bilden_. Die technische Definition von Syntax ist die Struktur von Anweisungen in einer Computersprache. Programmiersprachen haben eine Syntax. JavaScript ist eine Programmiersprache, und wie andere Programmiersprachen hat sie ihre eigene Syntax. Wenn wir keine Syntax schreiben, die JavaScript versteht, wird es verschiedene Arten von Fehlern auslösen. Wir werden später verschiedene Arten von JavaScript-Fehlern untersuchen. Sehen wir uns zunächst einmal die Syntaxfehler an.
 
-![Error](images/raising_syntax_error.png)
+![Fehler](images/raising_syntax_error.png)
 
-I made a deliberate mistake. As a result, the console raises syntax errors. Actually, the syntax is very informative. It informs what type of mistake was made. By reading the error feedback guideline, we can correct the syntax and fix the problem. The process of identifying and removing errors from a program is called debugging. Let us fix the errors:
-
-```js
-console.log('Hello, World!')
-console.log('Hello, World!')
-```
-
-So far, we saw how to display text using the _`console.log()`_. If we are printing text or string using _`console.log()`_, the text has to be inside the single quotes, double quotes, or a backtick.
-**Example:**
+Ich habe absichtlich einen Fehler gemacht. Daraufhin meldet die Konsole Syntaxfehler. Eigentlich ist die Syntax sehr informativ. Sie informiert darüber, welche Art von Fehler gemacht wurde. Wenn wir den Leitfaden zur Fehlerrückmeldung lesen, können wir die Syntax korrigieren und das Problem beheben. Der Prozess der Identifizierung und Beseitigung von Fehlern in einem Programm wird Debugging genannt. Lassen Sie uns die Fehler beheben:
 
 ```js
-console.log('Hello, World!')
-console.log("Hello, World!")
-console.log(`Hello, World!`)
+console.log('Hallo, Welt!')
+console.log('Hallo, Welt!')
 ```
 
-#### Arithmetics
+Bis jetzt haben wir gesehen, wie man Text mit _`console.log()`_ ausgibt. Wenn wir einen Text oder eine Zeichenkette mit _`console.log()`_ ausgeben, muss der Text innerhalb von einfachen Anführungszeichen, doppelten Anführungszeichen oder einem Backtick stehen.
+**Beispiel:**
 
-Now, let us practice more writing JavaScript codes using _`console.log()`_ on Google Chrome console for number data types.
-In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
-It is possible to write JavaScript code on Google Chrome console can directly without the **_`console.log()`_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
+```js
+console.log('Hallo, Welt!')
+console.log("Hallo, Welt!")
+console.log(`Hallo, Welt!`)
+```
 
-![Arithmetic](images/arithmetic.png)
+#### Arithmetik
+
+Lassen Sie uns nun das Schreiben von JavaScript-Codes mit _`console.log()`_ auf der Google Chrome-Konsole für Zahlendatentypen weiter üben.
+Zusätzlich zum Text können wir mit JavaScript auch mathematische Berechnungen durchführen. Lassen Sie uns die folgenden einfachen Berechnungen durchführen.
+Es ist möglich, JavaScript-Code auf der Google Chrome-Konsole direkt ohne die Funktion **_`console.log()`_** zu schreiben. Sie ist jedoch in dieser Einführung enthalten, weil der Großteil dieser Herausforderung in einem Texteditor stattfinden würde, wo die Verwendung der Funktion obligatorisch wäre. Sie können direkt mit Anweisungen auf der Konsole herumspielen.
+
+![Arithmetik](images/arithmetic.png)
 
 ```js
 console.log(2 + 3) // Addition
-console.log(3 - 2) // Subtraction
-console.log(2 * 3) // Multiplication
+console.log(3 - 2) // Subtraktion
+console.log(2 * 3) // Multiplikation
 console.log(3 / 2) // Division
-console.log(3 % 2) // Modulus - finding remainder
-console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
+console.log(3 % 2) // Modulus - Ermitteln des Rests
+console.log(3 ** 2) // Potenzierung 3 ** 2 == 3 * 3
 ```
 
-### Code Editor
+### Code-Editor
 
-We can write our codes on the browser console, but it won't be for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 days of JavaScript challenge, we will be using Visual Studio Code.
+Wir können unsere Codes auf der Browserkonsole schreiben, aber für größere Projekte wird das nicht reichen. In einer realen Arbeitsumgebung verwenden Entwickler verschiedene Code-Editoren, um ihre Codes zu schreiben. In dieser 30-Tage-JavaScript-Herausforderung werden wir Visual Studio Code verwenden.
 
-#### Installing Visual Studio Code
+#### Installieren von Visual Studio Code
 
-Visual Studio Code is a very popular open-source text editor. I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
+Visual Studio Code ist ein sehr beliebter Open-Source-Texteditor. Ich empfehle [Visual Studio Code](https://code.visualstudio.com/) herunterzuladen, aber wenn Sie andere Editoren bevorzugen, können Sie gerne mit dem arbeiten, was Sie haben.
 
 ![Vscode](images/vscode.png)
 
-If you installed Visual Studio Code, let us start using it.
+Wenn Sie Visual Studio Code installiert haben, können Sie es jetzt benutzen.
 
-#### How to Use Visual Studio Code
+#### Wie man Visual Studio Code verwendet
 
-Open the Visual Studio Code by double-clicking its icon. When you open it, you will get this kind of interface. Try to interact with the labeled icons.
+Öffnen Sie Visual Studio Code durch einen Doppelklick auf das Symbol. Wenn Sie es öffnen, erhalten Sie diese Art von Schnittstelle. Versuchen Sie, mit den beschrifteten Symbolen zu interagieren.
 
 ![Vscode ui](./images/vscode_ui.png)
 
-![Vscode add project](./images/adding_project_to_vscode.png)
+![Vscode Projekt hinzufügen](./images/adding_project_to_vscode.png)
 
-![Vscode open project](./images/opening_project_on_vscode.png)
+![Vscode Projekt öffnen](./images/opening_project_on_vscode.png)
 
-![script file](images/scripts_on_vscode.png)
+![Skriptdatei](images/scripts_on_vscode.png)
 
-![Installing Live Server](images/vsc_live_server.png)
+![Live-Server installieren](images/vsc_live_server.png)
 
-![running script](./images/running_script.png)
+![laufendes Skript](./images/running_script.png)
 
-![coding running](./images/launched_on_new_tab.png)
+![Codierung läuft](./images/launched_on_new_tab.png)
 
-## Adding JavaScript to a Web Page
+## Hinzufügen von JavaScript zu einer Webseite
 
-JavaScript can be added to a web page in three different ways:
+JavaScript kann auf drei verschiedene Arten zu einer Webseite hinzugefügt werden:
 
-- **_Inline script_**
-- **_Internal script_**
-- **_External script_**
-- **_Multiple External scripts_**
+- **_Inline-Skript_**
+- **_Internes Skript_**
+- **_Externes Skript_**
+- **Mehrere externe Skripte_**
 
-The following sections show different ways of adding JavaScript code to your web page.
+Die folgenden Abschnitte zeigen verschiedene Möglichkeiten, JavaScript-Code zu Ihrer Webseite hinzuzufügen.
 
-### Inline Script
+### Inline-Skript
 
-Create a project folder on your desktop or in any location, name it 30DaysOfJS and create an **_`index.html`_** file in the project folder. Then paste the following code and open it in a browser, for example [Chrome](https://www.google.com/chrome/).
+Erstellen Sie einen Projektordner auf Ihrem Desktop oder an einem beliebigen Ort, nennen Sie ihn 30DaysOfJS und erstellen Sie eine **_`index.html`_** Datei im Projektordner. Fügen Sie dann den folgenden Code ein und öffnen Sie ihn in einem Browser, zum Beispiel [Chrome](https://www.google.com/chrome/).
 
 ```html
 <!DOCTYPE html>
@@ -344,12 +344,12 @@ Create a project folder on your desktop or in any location, name it 30DaysOfJS a
 </html>
 ```
 
-Now, you just wrote your first inline script. We can create a pop up alert message using the _`alert()`_ built-in function.
+Jetzt haben Sie gerade Ihr erstes Inline-Skript geschrieben. Mit der eingebauten Funktion _`alert()`_ können wir eine Pop-up-Warnmeldung erstellen.
 
-### Internal Script
+### Internes Skript
 
-The internal script can be written in the _`head`_ or the _`body`_, but it is preferred to put it on the body of the HTML document.
-First, let us write on the head part of the page.
+Das interne Skript kann im _`head`_ oder im _`body`_ geschrieben werden, aber es ist vorzuziehen, es im Body des HTML-Dokuments unterzubringen.
+Zuerst schreiben wir es in den Kopfteil der Seite.
 
 ```html
 <!DOCTYPE html>
@@ -364,7 +364,7 @@ First, let us write on the head part of the page.
 </html>
 ```
 
-This is how we write an internal script most of the time. Writing the JavaScript code in the body section is the most preferred option. Open the browser console to see the output from the `console.log()`.
+In den meisten Fällen schreiben wir ein internes Skript auf diese Weise. Den JavaScript-Code in den Body-Abschnitt zu schreiben, ist die bevorzugte Option. Öffnen Sie die Browserkonsole, um die Ausgabe von "console.log()" zu sehen.
 
 ```html
 <!DOCTYPE html>
@@ -381,20 +381,20 @@ This is how we write an internal script most of the time. Writing the JavaScript
 </html>
 ```
 
-Open the browser console to see the output from the `console.log()`.
+Öffnen Sie die Konsole des Browsers, um die Ausgabe von `console.log()` zu sehen.
 
 ![js code from vscode](./images/js_code_vscode.png)
 
-### External Script
+### Externes Skript
 
-Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
-First, we should create an external JavaScript file with .js extension. All files ending with .js extension are JavaScript files. Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
+Ähnlich wie das interne Skript kann der Link zum externen Skript in der Kopfzeile oder im Textkörper platziert werden, wobei es vorzuziehen ist, ihn in den Textkörper zu setzen.
+Zunächst sollten wir eine externe JavaScript-Datei mit der Erweiterung .js erstellen. Alle Dateien, die mit der Endung .js enden, sind JavaScript-Dateien. Erstellen Sie eine Datei mit dem Namen introduction.js in Ihrem Projektverzeichnis, schreiben Sie den folgenden Code und verlinken Sie diese .js-Datei am Ende des Textkörpers.
 
 ```js
 console.log('Welcome to 30DaysOfJavaScript')
 ```
 
-External scripts in the _head_:
+Externe Skripte im _head_:
 
 ```html
 <!DOCTYPE html>
@@ -407,7 +407,7 @@ External scripts in the _head_:
 </html>
 ```
 
-External scripts in the _body_:
+Externe Skripte im _body_:
 
 ```html
 <!DOCTYPE html>
@@ -416,19 +416,19 @@ External scripts in the _body_:
     <title>30DaysOfJavaScript:External script</title>
   </head>
   <body>
-    <!-- JavaScript external link could be in the header or in the body --> 
-    <!-- Before the closing tag of the body is the recommended place to put the external JavaScript script -->
+    <!-- Der externe JavaScript-Link kann in der Kopfzeile oder im Textkörper stehen --> 
+    <!-- Vor dem schließenden Tag des Körpers ist der empfohlene Platz für das externe JavaScript-Skript -->
     <script src="introduction.js"></script>
   </body>
 </html>
 ```
 
-Open the browser console to see the output of the `console.log()`.
+Öffnen Sie die Browserkonsole, um die Ausgabe von `console.log()` zu sehen.
 
-### Multiple External Scripts
+### Mehrere externe Skripte
 
-We can also link multiple external JavaScript files to a web page.
-Create a `helloworld.js` file inside the 30DaysOfJS folder and write the following code.
+Wir können auch mehrere externe JavaScript-Dateien mit einer Webseite verknüpfen.
+Erstellen Sie eine Datei `helloworld.js` im Ordner 30DaysOfJS und schreiben Sie den folgenden Code.
 
 ```js
 console.log('Hello, World!')
@@ -447,28 +447,28 @@ console.log('Hello, World!')
 </html>
 ```
 
-_Your main.js file should be below all other scripts_. It is very important to remember this.
+_Ihre Datei main.js sollte unter allen anderen Skripten stehen. Es ist sehr wichtig, sich dies zu merken.
 
 ![Multiple Script](./images/multiple_script.png)
 
-## Introduction to Data types
+## Einführung in Datentypen
 
-In JavaScript and also other programming languages, there are different types of data types. The following are JavaScript primitive data types: _String, Number, Boolean, undefined, Null_, and _Symbol_.
+In JavaScript und auch in anderen Programmiersprachen gibt es verschiedene Arten von Datentypen. Die folgenden sind die primitiven JavaScript-Datentypen: _String, Number, Boolean, undefined, Null_, und _Symbol_.
 
-### Numbers
+### Zahlen
 
-- Integers: Integer (negative, zero and positive) numbers
-  Example:
+- Ganze Zahlen: Ganzzahlige (negative, null und positive) Zahlen
+  Beispiel:
   ... -3, -2, -1, 0, 1, 2, 3 ...
-- Float-point numbers: Decimal number
-  Example
+- Fließkommazahlen: Dezimalzahl
+  Beispiel:
   ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
-### Strings
+### Zeichenketten
 
-A collection of one or more characters between two single quotes, double quotes, or backticks.
+Eine Sammlung von einem oder mehreren Zeichen zwischen zwei einfachen Anführungszeichen, doppelten Anführungszeichen oder Backticks.
 
-**Example:**
+**Beispiel:**
 
 ```js
 'a'
@@ -483,26 +483,26 @@ A collection of one or more characters between two single quotes, double quotes,
 'Any data type under a single quote, double quote or backtick is a string'
 ```
 
-### Booleans
+### Boolesche Werte
 
-A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
+Ein boolescher Wert ist entweder Wahr oder Falsch. Jeder Vergleich ergibt einen booleschen Wert, der entweder wahr oder falsch ist.
 
-A boolean data type is either a true or false value.
+Ein boolescher Datentyp ist entweder ein wahrer oder ein falscher Wert.
 
-**Example:**
+**Beispiel:**
 
 ```js
-true // if the light is on, the value is true
-false // if the light is off, the value is false
+true // wenn das Licht an ist, ist der Wert true
+false // wenn das Licht aus ist, ist der Wert false
 ```
 
-### Undefined
+### Undefiniert
 
-In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
+Wenn wir in JavaScript einer Variablen keinen Wert zuweisen, ist der Wert undefiniert. Wenn eine Funktion nichts zurückgibt, ist der Wert außerdem undefiniert.
 
 ```js
-let firstName
-console.log(firstName) // undefined, because it is not assigned to a value yet
+let vorname
+console.log(vorname) // undefiniert, da noch kein Wert zugewiesen ist
 ```
 
 ### Null
@@ -513,9 +513,9 @@ Null in JavaScript means an empty value.
 let emptyValue = null
 ```
 
-## Checking Data Types
+## Überprüfen von Datentypen
 
-To check the data type of a certain variable, we use the **typeof** operator. See the following example.
+Um den Datentyp einer bestimmten Variablen zu überprüfen, verwenden wir den Operator **typeof**. Siehe das folgende Beispiel.
 
 ```js
 console.log(typeof 'Asabeneh') // string
@@ -525,45 +525,45 @@ console.log(typeof null) // object type
 console.log(typeof undefined) // undefined
 ```
 
-## Comments Again
+## Wieder Kommentare
 
-Remember that commenting in JavaScript is similar to other programming languages. Comments are important in making your code more readable.
-There are two ways of commenting:
+Denken Sie daran, dass die Kommentierung in JavaScript ähnlich wie in anderen Programmiersprachen ist. Kommentare sind wichtig, um Ihren Code besser lesbar zu machen.
+Es gibt zwei Arten des Kommentierens:
 
-- _Single line commenting_
+- _Einzeilige Kommentierung_
 - _Multiline commenting_
 
 ```js
-// commenting the code itself with a single comment
-// let firstName = 'Asabeneh'; single line comment
-// let lastName = 'Yetayeh'; single line comment
+// Kommentierung des Codes selbst mit einem einzelnen Kommentar
+// let vorname = 'Asabeneh'; einzeiliger Kommentar
+// let nachname = 'Yetayeh'; einzeiliger Kommentar
 ```
 
-Multiline commenting:
+Mehrzeilige Kommentierung:
 
 ```js
 /*
   let location = 'Helsinki';
   let age = 100;
   let isMarried = true;
-  This is a Multiple line comment
+  Dies ist ein mehrzeiliger Kommentar
 */
 ```
 
-## Variables
+## Variablen
 
-Variables are _containers_ of data. Variables are used to _store_ data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use _var_, _let_, or _const_ keywords.
+Variablen sind _Behälter_ für Daten. Variablen werden verwendet, um Daten an einem Speicherplatz zu _speichern_. Wenn eine Variable deklariert wird, wird ein Speicherplatz reserviert. Wenn einer Variablen ein Wert (Daten) zugewiesen wird, wird der Speicherplatz mit diesen Daten gefüllt. Um eine Variable zu deklarieren, verwenden wir die Schlüsselwörter _var_, _let_ oder _const_.
 
-For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do not change, and we can use _const_. We will not use var in this challenge and I don't recommend you to use it. It is error prone way of declaring variable it has lots of leak. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
+Für eine Variable, die sich zu einem anderen Zeitpunkt ändert, verwenden wir _let_. Wenn sich die Daten überhaupt nicht ändern, verwenden wir _const_. Zum Beispiel ändern sich PI, der Name des Landes und die Schwerkraft nicht, und wir können _const_ verwenden. Wir werden var in dieser Aufgabe nicht verwenden und ich empfehle Ihnen auch nicht, es zu verwenden. Es ist eine fehleranfällige Art, Variablen zu deklarieren, und hat viele Lecks. Wir werden mehr über var, let und const im Detail in anderen Abschnitten (scope) sprechen. Für den Moment ist die obige Erklärung ausreichend.
 
-A valid JavaScript variable name must follow the following rules:
+Ein gültiger JavaScript-Variablenname muss die folgenden Regeln befolgen:
 
-- A JavaScript variable name should not begin with a number.
-- A JavaScript variable name does not allow special characters except dollar sign and underscore.
-- A JavaScript variable name follows a camelCase convention.
-- A JavaScript variable name should not have space between words.
+- Ein JavaScript-Variablenname darf nicht mit einer Zahl beginnen.
+- Ein JavaScript-Variablenname darf keine Sonderzeichen außer Dollarzeichen und Unterstrich enthalten.
+- Ein JavaScript-Variablenname folgt einer camelCase-Konvention.
+- Ein JavaScript-Variablenname sollte keine Leerzeichen zwischen den Wörtern enthalten.
 
-The following are examples of valid JavaScript variables.
+Im Folgenden finden Sie Beispiele für gültige JavaScript-Variablen.
 
 ```js
 firstName
@@ -587,9 +587,9 @@ year2020
 year_2020
 ```
 
-The first and second variables on the list follows the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables(camelWithOneHump). We use CamelCase(CamelWithTwoHump) to declare classes, we will discuss about classes and objects in other section.
+Die erste und zweite Variable in der Liste entspricht der camelCase-Konvention für die Deklaration in JavaScript. In diesem Material werden wir CamelCase-Variablen (CamelWithOneHump) verwenden. Wir verwenden CamelCase(CamelWithTwoHump), um Klassen zu deklarieren, wir werden über Klassen und Objekte in einem anderen Abschnitt diskutieren.
 
-Example of invalid variables:
+Beispiel für ungültige Variablen:
 
 ```js
   first-name
@@ -597,24 +597,24 @@ Example of invalid variables:
   num_#_1
 ```
 
-Let us declare variables with different data types. To declare a variable, we need to use _let_ or _const_ keyword before the variable name. Following the variable name, we write an equal sign (assignment operator), and a value(assigned data).
+Lassen Sie uns Variablen mit verschiedenen Datentypen deklarieren. Um eine Variable zu deklarieren, müssen wir das Schlüsselwort _let_ oder _const_ vor dem Variablennamen verwenden. Nach dem Variablennamen schreiben wir ein Gleichheitszeichen (Zuweisungsoperator) und einen Wert (zugewiesene Daten).
 
 ```js
 // Syntax
 let nameOfVariable = value
 ```
 
-The nameOfVriable is the name that stores different data of value. See below for detail examples.
+Der NameOfVriable ist der Name, der verschiedene Daten des Wertes speichert. Siehe unten für detaillierte Beispiele.
 
-**Examples of declared variables**
+**Beispiele für deklarierte Variablen**
 
 ```js
-// Declaring different variables of different data types
-let firstName = 'Asabeneh' // first name of a person
-let lastName = 'Yetayeh' // last name of a person
-let country = 'Finland' // country
-let city = 'Helsinki' // capital city
-let age = 100 // age in years
+// Deklaration verschiedener Variablen mit unterschiedlichen Datentypen
+let firstName = 'Asabeneh' // Vorname einer Person
+let lastName = 'Yetayeh' // Nachname einer Person
+let country = 'Finnland' // Land
+let city = 'Helsinki' // Hauptstadt
+let age = 100 // Alter in Jahren
 let isMarried = true
 
 console.log(firstName, lastName, country, city, age, isMarried)
@@ -638,7 +638,7 @@ console.log(gravity, boilingPoint, PI)
 ```
 
 ```js
-// Variables can also be declaring in one line separated by comma, however I recommend to use a seperate line to make code more readble
+// Variablen können auch in einer Zeile durch Komma getrennt deklariert werden, ich empfehle jedoch eine separate Zeile, um den Code besser lesbar zu machen
 let name = 'Asabeneh', job = 'teacher', live = 'Finland'
 console.log(name, job, live)
 ```
@@ -647,26 +647,26 @@ console.log(name, job, live)
 Asabeneh teacher Finland
 ```
 
-When you run _index.html_ file in the 01-Day folder you should get this:
+Wenn Sie die Datei _index.html_ im Ordner 01-Day aufrufen, sollten Sie Folgendes erhalten:
 
 ![Day one](./images/day_1.png)
 
-🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and muscle.
+🌕 Du bist großartig! Du hast soeben Tag 1 der Herausforderung bestanden und bist auf dem Weg zur Größe. Mach jetzt ein paar Übungen für dein Gehirn und deine Muskeln.
 
-# 💻 Day 1: Exercises
+# 💻 Tag 1: Übungen
 
-1. Write a single line comment which says, _comments can make code readable_
-2. Write another single comment which says, _Welcome to 30DaysOfJavaScript_
-3. Write a multiline comment which says, _comments can make code readable, easy to reuse_
-   _and informative_
+1. Schreiben Sie einen einzeiligen Kommentar, der besagt, _Kommentare können Code lesbar machen_.
+2. Schreiben Sie einen weiteren einzeiligen Kommentar, der besagt, _Willkommen bei 30DaysOfJavaScript_
+3. Schreibe einen mehrzeiligen Kommentar, der besagt, _Kommentare können den Code lesbar, einfach wiederverwendbar_
+   _und informativ_
 
-4. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
-5. Create datatypes.js file and use the JavaScript **_typeof_** operator to check different data types. Check the data type of each variable
-6. Declare four variables without assigning values
-7. Declare four variables with assigned values
-8. Declare variables to store your first name, last name, marital status, country and age in multiple lines
-9. Declare variables to store your first name, last name, marital status, country and age in a single line
-10. Declare two variables _myAge_ and _yourAge_ and assign them initial values and log to the browser console.
+4. Erstellen Sie eine variable.js-Datei und deklarieren Sie Variablen und weisen Sie die Datentypen string, boolean, undefined und null zu.
+5. Erstellen Sie die Datei datatypes.js und verwenden Sie den JavaScript-Operator **_typeof_**, um verschiedene Datentypen zu überprüfen. Prüfen Sie den Datentyp jeder Variablen
+6. Deklaration von vier Variablen ohne Zuweisung von Werten
+7. Deklarieren Sie vier Variablen mit zugewiesenen Werten
+8. Deklarieren Sie Variablen, um Ihren Vornamen, Nachnamen, Familienstand, Land und Alter in mehreren Zeilen zu speichern
+9. Deklarieren Sie Variablen zum Speichern Ihres Vornamens, Nachnamens, Familienstandes, Landes und Alters in einer einzigen Zeile
+10. Deklarieren Sie zwei Variablen _myAge_ und _yourAge_ und weisen Sie ihnen Anfangswerte zu und protokollieren Sie sie in der Browserkonsole.
 
 ```sh
 I am 25 years old.
