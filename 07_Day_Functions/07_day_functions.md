@@ -41,45 +41,45 @@
 
 # 📔 Day 7
 
-## Functions
+## Funktionen
 
-So far we have seen many builtin JavaScript functions. In this section, we will focus on custom functions. What is a function? Before we start making functions, lets understand what function is and why we need function?
+Bisher haben wir viele eingebaute JavaScript-Funktionen gesehen. In diesem Abschnitt werden wir uns auf benutzerdefinierte Funktionen konzentrieren. Was ist eine Funktion? Bevor wir mit der Erstellung von Funktionen beginnen, sollten wir verstehen, was eine Funktion ist und warum wir eine Funktion brauchen.
 
-A function is a reusable block of code or programming statements designed to perform a certain task.
-A function is declared by a function key word followed by a name, followed by parentheses (). A parentheses can take a parameter. If a function take a parameter it will be called with argument. A function can also take a default parameter. To store a data to a function, a function has to return certain data types. To get the value we call or invoke a function.
-Function makes code:
+Eine Funktion ist ein wiederverwendbarer Block von Code oder Programmieranweisungen, der eine bestimmte Aufgabe erfüllt.
+Eine Funktion wird durch ein Funktionsschlüsselwort deklariert, gefolgt von einem Namen und einer Klammer (). Eine Klammer kann einen Parameter enthalten. Wenn eine Funktion einen Parameter annimmt, wird sie mit einem Argument aufgerufen. Eine Funktion kann auch einen Standardparameter annehmen. Um Daten in einer Funktion zu speichern, muss eine Funktion bestimmte Datentypen zurückgeben. Um den Wert zu erhalten, rufen wir eine Funktion auf oder rufen sie auf.
+Eine Funktion macht den Code:
 
-- clean and easy to read
-- reusable
-- easy to test
+- sauber und leicht zu lesen
+- wiederverwendbar
+- leicht zu testen
 
-A function can be declared or created in couple of ways:
+Eine Funktion kann auf mehrere Arten deklariert oder erstellt werden:
 
 - _Declaration function_
 - _Expression function_
 - _Anonymous function_
 - _Arrow function_
 
-### Function Declaration
+### Funktionsdeklaration
 
-Let us see how to declare a function and how to call a function.
+Sehen wir uns an, wie man eine Funktion deklariert und wie man eine Funktion aufruft.
 
 ```js
-//declaring a function without a parameter
+//Eine Funktion ohne Parameter deklarieren
 function functionName() {
   // code goes here
 }
-functionName() // calling function by its name and with parentheses
+functionName() // Aufruf der Funktion durch ihren Namen und mit Klammern
 ```
 
-### Function without a parameter and return
+### Funktion ohne Parameter und Rückgabe
 
-Function can be declared without a parameter.
+Eine Funktion kann ohne Parameter deklariert werden.
 
-**Example:**
+**Beispiel:**
 
 ```js
-// function without parameter,  a function which make a number square
+// Funktion ohne Parameter, eine Funktion, die eine Zahl quadratisch macht
 function square() {
   let num = 2
   let sq = num * num
@@ -112,9 +112,9 @@ addTwoNumbers() // a function has to be called by its name to be executed
 printFullName() // calling a function
 ```
 
-### Function returning value
+### Funktion gibt Wert zurück
 
-Function can also return values, if a function does not return values the value of the function is undefined. Let us write the above functions with return. From now on, we return value to a function instead of printing it.
+Funktionen können auch Werte zurückgeben. Wenn eine Funktion keine Werte zurückgibt, ist der Wert der Funktion undefiniert. Schreiben wir die obigen Funktionen mit Rückgabe. Von nun an geben wir einen Wert an eine Funktion zurück, anstatt ihn auszugeben.
 
 ```js
 function printFullName (){
@@ -224,13 +224,13 @@ console.log(areaOfCircle(10))
 
 ```
 
-### Function with unlimited number of parameters
+### Funktion mit unbegrenzter Anzahl von Parametern
 
-Sometimes we do not know how many arguments the user going to pass. Therefore, we should know how to write a function which can take unlimited number of arguments. The way we do it has a significant difference between a function declaration(regular function) and arrow function. Let us see examples both in function declaration and arrow function.
+Manchmal wissen wir nicht, wie viele Argumente der Benutzer übergeben wird. Daher sollten wir wissen, wie man eine Funktion schreibt, die eine unbegrenzte Anzahl von Argumenten annehmen kann. Die Art und Weise, wie wir dies tun, unterscheidet sich erheblich zwischen einer Funktionsdeklaration (reguläre Funktion) und einer Pfeilfunktion. Sehen wir uns Beispiele sowohl für die Funktionsdeklaration als auch für die Pfeilfunktion an.
 
-#### Unlimited number of parameters in regular function
+#### Unbegrenzte Anzahl von Parametern in einer regulären Funktion
 
- A function declaration provides a function scoped arguments array like object. Any thing we passed as argument in the function can be accessed from arguments object inside the functions. Let us see an example
+ Eine Funktionsdeklaration liefert ein funktionsspezifisches Argumenten-Array wie ein Objekt. Auf alles, was wir als Argument in der Funktion übergeben haben, kann über das Argumente-Objekt innerhalb der Funktionen zugegriffen werden. Hier ein Beispiel
 
  ```js
 // Let us access the arguments object
@@ -260,9 +260,9 @@ console.log(sumAllNums(10, 20, 13, 40, 10))  // 93
 console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
 ```
 
-#### Unlimited number of parameters in arrow function
+#### Unbegrenzte Anzahl von Parametern in der Pfeilfunktion
 
- Arrow function does not have the function scoped arguments object. To implement a function which takes unlimited number of arguments in an arrow function we use spread operator followed by any parameter name.  Any thing we passed as argument in the function can be accessed as array in the arrow function. Let us see an example
+ Die Pfeilfunktion verfügt nicht über ein Objekt mit funktionsspezifischen Argumenten. Um eine Funktion zu implementieren, die eine unbegrenzte Anzahl von Argumenten in eine Pfeilfunktion aufnimmt, verwenden wir den Spread-Operator gefolgt von einem beliebigen Parameternamen.  Alles, was wir als Argument in der Funktion übergeben haben, kann als Array in der Pfeilfunktion aufgerufen werden. Hier ein Beispiel
 
  ```js
 // Let us access the arguments object
@@ -294,9 +294,9 @@ console.log(sumAllNums(10, 20, 13, 40, 10))  // 93
 console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
 ```
 
-### Anonymous Function
+### Anonyme Funktion
 
-Anonymous function or without name
+Anonyme Funktion oder ohne Namen
 
 ```js
 const anonymousFun = function() {
@@ -306,9 +306,9 @@ const anonymousFun = function() {
 }
 ```
 
-### Expression Function
+### Ausdrucksfunktion (Expression Function)
 
-Expression functions are anonymous functions. After we create a function without a name and we assign it to a variable. To return a value from the function we should call the variable. Look at the example below.
+Ausdrucksfunktionen sind anonyme Funktionen. Nachdem wir eine Funktion ohne Namen erstellt haben, weisen wir sie einer Variablen zu. Um einen Wert aus der Funktion zurückzugeben, müssen wir die Variable aufrufen. Sehen Sie sich das folgende Beispiel an.
 
 ```js
 
@@ -320,9 +320,9 @@ const square = function(n) {
 console.log(square(2)) // -> 4
 ```
 
-### Self Invoking Functions
+### Selbstaufrufende Funktionen
 
-Self invoking functions are anonymous functions which do not need to be called to return a value.
+Selbstaufrufende Funktionen sind anonyme Funktionen, die nicht aufgerufen werden müssen, um einen Wert zurückzugeben.
 
 ```js
 (function(n) {
@@ -336,15 +336,15 @@ let squaredNum = (function(n) {
 console.log(squaredNum)
 ```
 
-### Arrow Function
+### Pfeilfunktion (Arrow Function)
 
-Arrow function is an alternative to write a function, however function declaration and arrow function have some minor differences.
+Die Pfeilfunktion ist eine Alternative zur Funktionsdeklaration, allerdings gibt es zwischen der Funktionsdeklaration und der Pfeilfunktion einige kleine Unterschiede.
 
-Arrow function uses arrow instead of the keyword *function* to declare a function. Let us see both function declaration and arrow function.
+Die Pfeilfunktion verwendet den Pfeil anstelle des Schlüsselworts *Funktion*, um eine Funktion zu deklarieren. Schauen wir uns sowohl die Funktionsdeklaration als auch die Pfeilfunktion an.
 
 ```js
-// This is how we write normal or declaration function
-// Let us change this declaration function to an arrow function
+// So schreiben wir eine normale oder Deklarationsfunktion
+// Ändern wir diese Deklarationsfunktion in eine Pfeilfunktion
 function square(n) {
   return n * n
 }
@@ -357,7 +357,7 @@ const square = n => {
 
 console.log(square(2))  // -> 4
 
-// if we have only one line in the code block, it can be written as follows, explicit return
+// wenn wir nur eine Zeile im Codeblock haben, kann er wie folgt geschrieben werden, explizite Rückgabe
 const square = n => n * n  // -> 4
 ```
 
