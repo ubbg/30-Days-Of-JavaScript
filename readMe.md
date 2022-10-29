@@ -111,69 +111,69 @@
 - [💻 Day 1: Exercises](#-day-1-exercises)
 
 # 📔 Day 1
+## Einleitung
 
-## Introduction
+**Glückwunsch**, dass Sie sich entschieden haben, an der 30 Tage JavaScript-Programmierung Challenge teilzunehmen. In diesem Wettbewerb lernen Sie alles, was Sie brauchen, um ein JavaScript-Programmierer zu werden, und generell das ganze Konzept der Programmierung. Am Ende der Challenge erhalten Sie ein 30DaysOfJavaScript-Programming-Challenge-Zertifikat. Falls Sie Hilfe benötigen oder anderen helfen möchten, können Sie der [Telegrammgruppe] (https://t.me/ThirtyDaysOfJavaScript) beitreten.
 
-**Congratulations** on deciding to participate in 30 days of JavaScript programming challenge. In this challenge you will learn everything you need to be a JavaScript programmer, and in general, the whole concept of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge completion certificate. In case you need help or if you would like to help others you may join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
+**Die 30DaysOfJavaScript**-Herausforderung ist ein Leitfaden für Anfänger und fortgeschrittene JavaScript-Entwickler. Willkommen bei JavaScript. JavaScript ist die Sprache des Webs. Mir macht es Spaß, JavaScript zu verwenden und zu lehren, und ich hoffe, Sie werden es auch tun.
 
-**A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. JavaScript is the language of the web. I enjoy using and teaching JavaScript and I hope you will do so too.
-
-In this step by step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
-JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **_machine learning_** and **_AI_**.
-**_JavaScript (JS)_** has increased in popularity in recent years and has been the leading
-programming language for six consecutive years and is the most used programming language on
+In dieser JavaScript-Herausforderung lernen Sie Schritt für Schritt JavaScript, die beliebteste Programmiersprache in der Geschichte der Menschheit.
+JavaScript wird verwendet **_um Websites interaktiv zu gestalten, um mobile Anwendungen, Desktop-Anwendungen und Spiele zu entwickeln_**. Heutzutage kann JavaScript auch für **_maschinelles Lernen_** und **_AI_** verwendet werden.
+**_JavaScript (JS)_** hat in den letzten Jahren an Popularität gewonnen und ist seit sechs Jahren in Folge die führende
+Programmiersprache und ist die am häufigsten verwendete Programmiersprache auf
 Github.
 
-## Requirements
+## Anforderungen
 
-No prior knowledge of programming is required to follow this challenge. You need only:
+Für die Teilnahme an dieser Challenge sind keine Vorkenntnisse im Programmieren erforderlich. Du brauchst nur:
 
 1. Motivation
-2. A computer
+2. Einen Computer
 3. Internet
-4. A browser
-5. A code editor
+4. Ein Browser
+5. Ein Code-Editor
 
-## Setup
+## Einrichtung
 
-I believe you have the motivation and a strong desire to be a developer, a computer and Internet. If you have those, then you have everything to get started.
+Ich glaube, Sie haben die Motivation und den starken Wunsch, ein Entwickler zu sein, einen Computer und Internet. Wenn du das hast, dann hast du alles, um loszulegen.
 
-### Install Node.js
+### Node.js installieren
 
-You may not need Node.js right now but you may need it for later. Install [node.js](https://nodejs.org/en/).
+Sie brauchen Node.js vielleicht nicht sofort, aber vielleicht für später. Installieren Sie [node.js](https://nodejs.org/en/).
 
-![Node download](images/download_node.png)
+![Node herunterladen](images/download_node.png)
 
-After downloading double click and install
+Nach dem Herunterladen doppelklicken und installieren
 
-![Install node](images/install_node.png)
+![Node installieren](images/install_node.png)
 
-We can check if node is installed on our local machine by opening our device terminal or command prompt.
+Wir können überprüfen, ob node auf unserem lokalen Rechner installiert ist, indem wir unser Geräteterminal oder die Eingabeaufforderung öffnen.
+
 
 ```sh
 asabeneh $ node -v
 v12.14.0
 ```
 
-When making this tutorial I was using Node version 12.14.0, but now the recommended version of Node.js for download is v14.17.6, by the time you use this material you may have a higher Node.js version.
+Als ich dieses Tutorial erstellt habe, habe ich die Node-Version 12.14.0 verwendet, aber jetzt ist die empfohlene Version von Node.js für den Download die Version 14.17.6, wenn Sie dieses Material verwenden, haben Sie vielleicht eine höhere Node.js-Version.
 
 ### Browser
 
-There are many browsers out there. However, I strongly recommend Google Chrome.
+Es gibt viele Browser auf dem Markt. Ich empfehle jedoch dringend Google Chrome.
 
-#### Installing Google Chrome
+#### Installieren von Google Chrome
 
-Install [Google Chrome](https://www.google.com/chrome/) if you do not have one yet. We can write small JavaScript code on the browser console, but we do not use the browser console to develop applications.
+Installieren Sie [Google Chrome] (https://www.google.com/chrome/), falls Sie noch keinen Browser haben. Wir können kleinen JavaScript-Code auf der Browserkonsole schreiben, aber wir verwenden die Browserkonsole nicht zur Entwicklung von Anwendungen.
 
 ![Google Chrome](images/google_chrome.png)
 
-#### Opening Google Chrome Console
+#### Google Chrome-Konsole öffnen
 
-You can open Google Chrome console either by clicking three dots at the top right corner of the browser, selecting _More tools -> Developer tools_ or using a keyboard shortcut. I prefer using shortcuts.
+Sie können die Google Chrome-Konsole öffnen, indem Sie entweder auf die drei Punkte in der oberen rechten Ecke des Browsers klicken, _Weitere Tools -> Entwicklertools_ wählen oder eine Tastenkombination verwenden. Ich bevorzuge die Verwendung von Tastenkombinationen.
 
-![Opening chrome](images/opening_developer_tool.png)
+Chrome öffnen](images/opening_developer_tool.png)
 
-To open the Chrome console using a keyboard shortcut.
+So öffnen Sie die Chrome-Konsole mit einem Tastaturkürzel.
 
 ```sh
 Mac
