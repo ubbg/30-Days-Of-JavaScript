@@ -32,11 +32,11 @@
 
 # 📔 Day 6
 
-## Loops
+## Schleifen
 
-Most of the activities we do in life are full of repetitions. Imagine if I ask you to print out from 0 to 100 using console.log(). To implement this simple task it may take you 2 to 5 minutes, such kind of tedious and repetitive task can be carried out using loop. If you prefer watching the videos, you can checkout the [video tutorials](https://www.youtube.com/channel/UCM4xOopkYiPwJqyKsSqL9mw)
+Die meisten Tätigkeiten, die wir im Leben ausüben, bestehen aus Wiederholungen. Stellen Sie sich vor, ich würde Sie bitten, mit console.log() eine Zahl von 0 bis 100 auszudrucken. Für diese einfache Aufgabe benötigen Sie vielleicht 2 bis 5 Minuten. Solche langweiligen und sich wiederholenden Aufgaben können mit Hilfe von Schleifen ausgeführt werden. Wenn Sie es vorziehen, sich Videos anzusehen, können Sie sich die [video tutorials](https://www.youtube.com/channel/UCM4xOopkYiPwJqyKsSqL9mw) ansehen.
 
-In programming languages to carry out repetitive task we use different kinds of loops. The following examples are the commonly used loops in JavaScript and other programming languages.
+In Programmiersprachen verwenden wir verschiedene Arten von Schleifen, um sich wiederholende Aufgaben auszuführen. Die folgenden Beispiele sind die am häufigsten verwendeten Schleifen in JavaScript und anderen Programmiersprachen.
 
 ### for Loop
 
